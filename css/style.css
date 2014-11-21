@@ -10,10 +10,24 @@ div {
 
 .top-navigation {
 	background-color: #FFF;
+
 }
 
+.content {
+	padding: 0px 15px;
+}
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+}
+
+.logo {
+	margin: 17px 17px;
+}
+
+.links { 
+	float: right;
+	display: inline-block;
+	width:900px;
 }
