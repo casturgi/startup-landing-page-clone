@@ -1,5 +1,6 @@
 body {
 	background-color: LightGray;
+	margin: 0px;
 }
 
 div {
@@ -10,24 +11,23 @@ div {
 
 .top-navigation {
 	background-color: #FFF;
-
 }
 
-.content {
-	padding: 0px 15px;
+.top-navigation .logo {
+	margin-left: 14px;
 }
+
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-}
+	}
 
-.logo {
-	margin: 17px 17px;
-}
-
-.links { 
+.top-navigation .links li{
 	float: right;
-	display: inline-block;
-	width:900px;
+	display:inline-block;
+	margin: 16px 16px;
 }
+
+
+
