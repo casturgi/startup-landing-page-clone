@@ -3,14 +3,17 @@ body {
 	margin: 0px;
 }
 
-div {
+/*div {
 	border: 1px solid Chocolate;
-}
 
+}
+*/
 /* Navigation Section */
 
 .top-navigation {
 	background-color: #FFF;
+	position: fixed;
+	width:100%;	
 }
 
 .top-navigation .logo {
@@ -18,10 +21,14 @@ div {
 	margin-top: 16px;
 }
 
-.top-navigation > .content {
-	width: 760px;
-	height: 70px;
+.content {
+	padding:0px 0.938rem;
+	width: 60%;
 	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+.top-navigation > .content {
+	height: 70px;
 	}
 
 .top-navigation .links {
@@ -32,6 +39,7 @@ div {
 	margin-top: 25px;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+
 }
 
 .top-navigation .links li {	
@@ -49,3 +57,54 @@ div {
 	color: #333333;
 }
 
+/* End Navigation Section */
+
+.introduction {
+	background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction h1 {
+	margin-top: 280px;
+	margin-bottom: 0px;
+	font-size: 50px;
+}
+
+.introduction h3 {
+	margin-top: 10px;
+	font-size: ;
+}
+
+.introduction h1, .introduction h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 200;
+}
+
+.big-button {
+	display: block;
+	margin: 0 auto;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 14px 26px;
+	margin-top: 50px;
+	background-color: rgb(232, 83, 28);
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: inherit;
+	color: #FFF;
+}
+button.big-button:hover{
+	background-color: #E81B0D;
+}
+
+.big-button >a:-webkit-any-link {
+	color: #FFF;
+	text-decoration: none;
+	cursor: pointer;
+}
