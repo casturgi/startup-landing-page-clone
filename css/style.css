@@ -63,7 +63,7 @@ body {
 /* End Navigation Section */
 /* start intro section */
 .introduction {
-	background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+	background-image: url('../images/first-background.jpg');
 	background-position: 0 bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
